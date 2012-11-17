@@ -1,0 +1,24 @@
+[user]
+    name = Arun Ponniah Sethuramalingam
+    email = arunse@amazon.com
+[color]
+    status = auto
+    diff = auto
+    branch = auto
+[push]
+    default = tracking
+[core]
+    editor = emacs
+    whitespace = trailing-space,space-before-tab,cr-at-eol
+    excludesfile = /home/arunse/.gitignore
+[alias]
+    lg  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    lga = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    unstage = reset HEAD --
+[diff]
+    # Allows me to double-click on file paths in diffs for pasting on command line
+    noprefix = true
