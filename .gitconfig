@@ -10,7 +10,7 @@
 [core]
     editor = emacs
     whitespace = trailing-space,space-before-tab,cr-at-eol
-    excludesfile = /home/arunse/.gitignore
+    excludesfile = /home/name/.gitignore
 [alias]
     lg  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
     lga = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
